@@ -21,7 +21,12 @@ public class datast {
 				
 			}
 			
+			
 		};
 		timer.schedule(tarefa, 0,SEGUNDOS);
+		
+		System.out.println("To com sono");
+		
+		
 	}
 }
