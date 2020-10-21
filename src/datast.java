@@ -16,7 +16,8 @@ public class datast {
 
 			@Override
 			public void run() {
-				System.out.println(dataf2.format(new Date()));
+				System.out.println(dataf2.format(new Date())+ " " + 
+						dataf1.format(new Date()));
 				
 			}
 			
